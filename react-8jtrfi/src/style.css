@@ -1,0 +1,62 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    font-weight: normal;
+    margin: 0px;
+    background: none;
+    line-height: 1.6em;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+}
+h5 {
+    font-size: 20px;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.text-center {
+    text-align: center!important;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none !important;
+}
+
+#test {
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.parallax {
+  width: 50%;
+  height: 50%;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'helvetica';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1 {
+  background-color: blue;
+}
+
+.p2 {
+  background-color: black;
+}

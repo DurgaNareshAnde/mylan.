@@ -1,0 +1,28 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@types/googlemaps": "^3.0.0",
+    "@types/markerclustererplus": "^2.1.29",
+    "@types/react": "^15.0.0 || ^16.0.0",
+    "font-awesome": "4.7.0",
+    "gsap": "^3.5.1",
+    "lodash": "^4.17.20",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-google-maps": "^9.4.5",
+    "react-multi-carousel": "2.5.5",
+    "react-router-dom": "^5.2.0",
+    "scrollmagic": "^2.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
